@@ -9,10 +9,10 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Date;
 
+import com.ts.trajectory.QuadInternalNode;
 import com.ts.trajectory.Trajectory;
 import com.ts.trajectory.TrajectoryHelper;
 import com.ts.trajectory.TrajectorySamplePoint;
-
 /**
  * Test the QuadInternalNode.java
  * @author Qinger
@@ -74,7 +74,7 @@ public class QuadInternalNodeTest {
 		
 		System.out.println("FilePath: " + filePath + "\n" + "Point Counts: " + samplePointsList.size());
 		ArrayList<Trajectory> trajectorys = trajectoryHelper.trajectoryCleanUp(samplePointsList, cutoffInterval, minPointNumber);
-		System.out.println("Trajectory¡¡Count: " + trajectorys.size());
+		System.out.println("Trajectory Count: " + trajectorys.size());
 		Date begin = new Date();
 		for(Trajectory trajectory : trajectorys) {
 			//if(QuadInternalNodeTest.trajCount == 14378)
@@ -121,7 +121,7 @@ public class QuadInternalNodeTest {
 
 	public static void main(String[] args) {
 		if(args[0].equalsIgnoreCase("--help")) {
-			System.out.println("args: the trajectory filepath¡£");
+			System.out.println("args: the trajectory filepath");
 			System.out.println(System.getProperty("user.dir"));
 			return;
 		}
