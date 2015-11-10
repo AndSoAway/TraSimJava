@@ -3,9 +3,9 @@ package com.ts.trajectory;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import com.ts.trajectory.Trajectory;
-import com.ts.trajectory.TrajectorySamplePoint;
-
+import com.ts.quad.Rectangle;
+import com.ts.quad.ConfigParams;
+import com.ts.quad.GeoCalculate;
 /**
  * 
  * @author Qinger
