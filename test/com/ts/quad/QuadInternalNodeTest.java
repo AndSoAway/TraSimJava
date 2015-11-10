@@ -39,23 +39,6 @@ public class QuadInternalNodeTest {
 		coordinates.add(MINX * TrajectoryHelper.ENLARGE);
 		coordinates.add(MINY * TrajectoryHelper.ENLARGE);
 		
-		/**
-		File bjMapInfoFile = new File(bjMapInfoFilePath);
-		try {
-			BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(bjMapInfoFile)));
-			String line = null;
-			while ((line = br.readLine()) != null) {
-				String[] lineParts = line.split(" ");
-				coordinates.add(Double.valueOf(lineParts[2]) * TrajectoryHelper.ENLARGE);
-			}
-			br.close();
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-		*/
-		
 		ArrayList<Point> points = new ArrayList<Point>();
 		points.add(new Point(coordinates.get(2), coordinates.get(3)));
 		points.add(new Point(coordinates.get(0), coordinates.get(1)));
