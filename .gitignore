@@ -13,3 +13,6 @@ hs_err_pid*
 
 # test data file
 *.dat.plain
+
+#nohup output result file
+nohup.out
