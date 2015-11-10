@@ -6,9 +6,6 @@ package com.ts.quad;
  *
  */
 public class GeoCalculate {
-	/**
-	 * ¾«¶ÈÖµ
-	 */
 	private static double PRECISE = 1e-6;
 	
 	/**

@@ -1,4 +1,4 @@
-package com.ts.quad;
+package com.ts.trajectory;
 
 import java.util.ArrayList;
 
@@ -9,7 +9,7 @@ public abstract class QuadNode {
 	
 	protected ArrayList<QuadNode> children;
 	
-	private static int trjInNodeUpBd = 100£°;
+	private static int trjInNodeUpBd = 1000;
 	
 	abstract public  Boolean isIntersect(Trajectory tj);
 	

@@ -1,4 +1,4 @@
-package com.ts.quad;
+package com.ts.trajectory;
 
 import java.util.ArrayList;
 import java.util.HashMap;

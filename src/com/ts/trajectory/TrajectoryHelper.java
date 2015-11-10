@@ -14,7 +14,7 @@ import java.util.StringTokenizer;
 /**
  * @author tanayun
  * 
- *         Helper class to facilitate on: 1£¬read raw trajectories from files; 2,
+ *         Helper class to facilitate on: read raw trajectories from files; 2,
  *         clean up trajectories, e.g., break those with long intervals.
  *
  */
@@ -157,7 +157,7 @@ public class TrajectoryHelper {
 			}
 		}
 
-		System.out.println("trajectory #£º" + trajectories.size());
+		System.out.println("trajectory count: " + trajectories.size());
 		return trajectories;
 	}
 
